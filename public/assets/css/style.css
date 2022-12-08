@@ -1,0 +1,5139 @@
+@font-face {
+    font-family: Work-Sans700;
+    src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+  }
+ 
+  @font-face {
+    font-family: Work Sans;
+    src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+  }
+  
+h3{
+    font-family:'Work-Sans700', sans-serif !important;
+   }
+
+h2{
+    font-family:'Work-Sans700', sans-serif;
+    font-size: 50px;
+    color: #004CFF;
+    line-height: 59px;
+    font-weight: 800;
+}
+
+p,a,span,b,strong{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: #474747;
+    margin: 0px;
+    line-height: 34px;
+}
+
+.site-button b {
+    font-family: 'Lato';
+}
+
+
+.header-btn b, .site-btn b , .site-btn p  {
+    color: #000 !important;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.top-header-btn img {
+    position: relative;
+    margin-top: -18px;
+    right: -15px;
+}
+
+a.header-btn p {
+    font-weight: bold;
+    color: #000;
+}
+.site-button {
+    padding: 11px 20px;
+    border: 1px solid #558AF1;
+    color: #000;
+}
+
+.site-button:hover {
+ background: #00FF84;
+ border: 1px solid  #00FF84;
+ transition: ease-in-out .3s;
+}
+
+h3,h4{
+    font-family:'Work Sans', sans-serif;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: #00FF84;
+}
+
+
+/* navigation menu  */
+.header-btn {
+    display: inline-flex;
+    z-index: 99999;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.sidenav a {
+    font-family: 'Lato', sans-serif;
+    z-index: 99;   
+}
+ .active {
+    color:#004CFF !important;
+  }
+  .sidenav { 
+      display: flex; 
+      justify-content: end;
+      overflow: revert;
+      width: 100% ;
+      float: unset;
+      margin: 0px auto;
+      height: auto;
+      padding: 10px 0px;
+      margin-left: 60px;
+  }
+  
+  .sidenav a.closebtn {
+      display: none !important;
+  }
+  
+  .hameburger-menu{
+      display: none;
+      font-size:30px;
+      cursor:pointer    
+  }
+  
+  .sidenav a {
+    padding: 8px 33px 8px 33px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .sidenav a:hover {
+  color: #111;
+  }
+  
+  .sidenav a:before{
+      width: 0px;
+  }
+
+  
+  .sidenav i.hameburger.fa.fa-bars {
+      float: right;
+  }
+  
+
+ .header-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    z-index: 99
+}
+
+
+
+
+.header-contact-btn img {
+    width: 32%;
+    margin-top: -24px;
+    margin-bottom: -22px;
+}
+
+.header-contact-btn a {
+    padding: 13px 0px 12px 20px;
+    background: #00FF84;
+    border: 1px solid #00FF84;
+    margin-left: 30px;
+}
+
+
+
+/* navigation menu  */
+
+
+
+
+/* Home Page CSS Start */
+/* top hero section */
+.hero-sec-btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.hero-sec-btn a {
+    margin-right: 30px;
+}
+
+#hero-sec {
+    background-position: top right;
+    background-size: contain;
+    background-image: unset;
+    background-repeat: no-repeat;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    margin-top: -130px;
+}
+
+.hero-left-sec {
+    position: absolute;
+    left:8%;
+    top: 240px;
+}
+
+
+a.hero-pkg-btn {
+    background: #FFFF00;
+    border: 1px solid #FFFF00;
+}
+.site-angle img, svg {
+    margin-top: -35px;
+    margin-right: -16px;
+}
+
+
+.hero-sec-tech img {
+    position: relative;
+    top: 261px;
+    width: 100%;
+}
+
+svg#svg-castle {
+    position: absolute;
+    width: 440px;
+    top: -280px;
+    right: 30%;
+}
+
+
+#hero-sec h2 {width: 85%;margin-bottom: 35px;}
+/* top hero section */
+
+
+/* second section */
+
+#second-sec {
+    width: 80%;
+    margin: auto;
+    padding: 120px 0px;
+}
+
+.second-left-col {
+    padding: 68px 0px;
+}
+
+input#exampleInputEmail1 {
+    width: 45%;
+    height: 50px;
+    display: initial;
+}
+
+
+button.header-btn.site-button.site-angle {
+    background: #004CFF;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Work Sans';
+}
+
+.second-left-col button.header-btn.site-button.site-angle{
+    padding: 15px 18px 15px 20px;
+}
+
+
+button.header-btn.site-button.site-angle img{
+        margin-top: -11px;
+}
+
+#second-sec  input, optgroup, select, textarea {
+    width: 100%;
+    background: #ffffff00;
+    line-height: 51px;
+    padding-left: 20px;
+    font-size: 20px !important;
+    margin: 0px !important;
+    color: #474747;
+    font-weight: bold;
+    border: 1px solid  #00000040 ; 
+    outline: none;
+}
+
+#second-sec input::placeholder{
+   color: #474747;
+}
+
+#second-sec h2{
+    color: #474747;
+    padding-bottom: 25px;
+    width: 86%
+}
+
+.second-left-col form{
+    padding-top: 30px;
+}
+
+.second-right-col img {
+    float: right;
+}
+.second-right-col {
+    margin: auto;
+}
+
+/* second section */
+
+
+
+
+
+
+/* clients section */
+
+#clients  {
+    padding: 120px 0px;
+    background: #F9F9F9;
+    
+}
+
+.clients-sec{
+    width: 80%;
+    margin: auto;
+}
+
+
+.clients-col a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0B2E71;
+}
+
+.clients-col h3 {
+    line-height: 45px;font-weight: bold;font-family: 'Work Sans'; padding-top: 30px;}
+
+.clents-img {
+    padding-top: 50px;
+}
+
+.clients-col {
+    background: #fff;
+    padding: 30px;
+    margin: 20px;
+    margin: 20px 20px 20px 0px;
+    height: 100%;
+}
+
+p.clients-p {
+    width: 48%;
+    padding-bottom: 10px;
+}
+
+.clients-col-yellow{ 
+    background: #00FF84;
+    padding: 12% 0% 12% 7%;
+    width: 100%;
+    height: max-content;
+    
+}
+
+.clients-col-yellow p{
+    color: #fff;
+    padding-bottom:22px;
+} 
+
+
+.client-blue-bg{
+    background-position: center right;
+    background-size: cover;
+    background-image: url("../img/clients-bg.webp");
+    background-repeat: no-repeat;
+    padding: 20px 25px;
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+    height: 100%
+}
+
+.client-blue-bg a {
+    font-size: 30px;
+    color: #FFFF00;
+    font-weight: bold;
+    font-family: 'Work Sans';
+}
+/* clients section */
+
+/* portfolio-tabs section */
+#portfolio-tabs{
+    margin: auto;
+    padding: 120px 0px 120px 170px;
+}
+
+.portfolio-scrool-img img {
+    width: 100%;
+   
+}
+
+.Portfolio-btn {
+    width: 40%;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.portfolio-pkg-btn{
+    background: #004CFF;
+    margin-right: 30px;
+}
+
+.portfolio-pkg-btn:hover > p {
+    color: #000 !important;
+}
+
+.portfolio-pkg-btn p {
+    color: #fff !important;
+}
+
+#portfolio-tabs .nav-link.active {
+    background-color: #ffffff !important;
+    color: #000 !important;
+    font-family: 'Work Sans';
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px 0px #7070703b;
+}
+ 
+#portfolio-tabs .nav-link {
+    margin: 0px 5px;
+    background: #F9F9F9 !important;
+    color: #004CFF;
+    font-family: 'Work Sans';
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+  
+}
+
+#portfolio-tabs h2 {
+    padding-bottom: 30px;
+}
+
+.tab-pane {
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    margin-top: 30px;
+}
+/* portfolio-tabs section */
+
+
+
+/* pricing-sec  section */
+
+.pricing-sec{
+    width: 100% !important;
+    background: #00FF84; 
+    padding: 0px 0px !important;
+ }
+.price-section{  
+   width: 85%;
+    margin: auto;
+    padding: 120px 0px;
+}
+
+
+.pricing-sec h2 {
+    padding-bottom: 15px !important;
+}
+
+p.price-sec-p {
+    margin-bottom: 25px;
+}
+.pricing-table {
+    background: #fff;
+    padding: 40px;
+    margin: 10px 10px 10px 0px;
+}
+
+.pricing-table ul {
+    padding: 15px 23px;
+    list-style-image: url(../../assets/img/);
+}
+
+p.pricing-p1 {
+    margin-top: 20px;
+}
+.pricing-table-blue li {
+    color: #fff !important;
+}
+
+
+.pricing-table-blue p.pricing-bottum{
+    color: #fff !important;
+
+}
+
+
+.pricing-table li {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    line-height: 34px;
+    color: #474747;
+}
+
+.pricing-table b {
+    font-size: 50px;
+    color: #004CFF;
+    font-weight: 900;
+}
+
+.pricing-table span {
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: bold;
+    color: #A5A5A5
+}
+
+.pricing-table p.pricing-bottum {
+    color: #004CFF;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pricing-table-blue{
+background:#004CFF ;
+}
+
+.pricing-table-blue h2, .pricing-table-blue b, .pricing-table-blue p,.pricing-table-blue ul{
+color: #fff;    
+}
+
+
+.price-section .tab-content {
+    margin-top: 50px;
+}
+
+.pricing-btn-blue a{
+background: #004CFF;
+}
+
+.pricing-btn-blue a,.pricing-btn-blue p{
+    color: #fff !important;
+}
+
+.pricing-btn-blue a:hover, .pricing-btn-blue p:hover {
+    color: #000 !important;
+}
+
+.pricing-btn {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.packeges {
+    margin-top: 60px;
+    background: #fff;
+    padding: 30px 50px 50px 50px;
+}
+
+.packeges h2 {
+    color: #000;
+}
+
+.packeges form {
+    margin-top: 30px;
+}
+
+.packeges .form-check {
+    display: inline-grid;
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+.panel-border {
+    border: 1px solid #707070;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.packeges  .form-check .form-check-input {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+
+.packeges  ul {
+    display: flex;
+    list-style: none;
+}
+
+.packeges  ul li {
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.packeges .form-check-input:checked {
+    border-radius: 50px;
+}
+
+
+.pricing-table ul{
+    list-style-image: url(../img/check1.svg);
+}
+
+.pricing-table-blue ul{
+    list-style-image: url(../img/check2.svg);
+}
+
+.form-check p {
+    margin: auto;
+    font-size: 18px;
+}
+
+.form-check img {
+    margin-bottom: 20px;
+    margin-top: 7px;
+}
+
+.packeges ul {
+    list-style: none;
+    flex-wrap: nowrap;
+}
+
+
+
+/*pricing-sec section */
+
+
+/*carasoul section */
+
+#carasoul{
+    width: 80%;
+    padding: 100px 0px;
+    margin: auto;
+}
+
+/*carasoul section */
+
+
+/*carasoul section */
+#footer-form{
+    background: #004cff;
+}
+
+.footer-form-sec{
+    width: 80%;
+    padding: 100px 0px;
+    margin: auto;
+}
+
+
+
+.footer-form-sec h2{
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 50px;
+}
+
+.footer-form-sec input, optgroup, select, textarea {
+
+    width: 100%;
+    background: #ffffff00;
+    line-height: 45px;
+    padding-left: 20px;
+    font-size: 20px !important;
+    margin: 12px 12px 12px 0px !important;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #558AF1;
+    outline: none;
+}
+
+.footer-form-sec label {
+    font-size: 16px;
+    font-family: 'Work Sans';
+    color: #fff;
+}
+
+.footer-form-sec button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+.footer-form-sec .footer-right-bg{
+   background-position: center right;
+    background-size: cover;
+    background-image: url(../img/footer-bg.webp);
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.footer-widgets{
+    width: 85%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.pck-guaranteed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.pck-guaranteed .guaranteed {
+    padding: 0px 45px;
+}
+
+button.header-btn.site-button.site-angle:hover {
+    background:#00FF84;
+    color:#000
+}
+
+.footer-form-right {
+    background: #fff;
+    padding: 50px;
+}
+
+
+.mark-form{
+    color: #074FD9;
+    margin-top: 25px;
+}
+
+.form-footer-right{
+    margin-left: 60px;
+}
+
+.footer-logo {
+    margin-top: 80px;
+}
+.footer-logo img {
+    margin-right: 20px;
+}
+
+
+.footer-widgets a {
+    color: #004CFF;
+}
+
+.footer-form-btn {
+    background: #FFFF00 !important;
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Work Sans';
+}
+
+.footer-clients-col-yellow{
+    margin: 20px 0px 20px 0px;
+}
+
+.footer-clients-col-yellow a {
+    color: #FFFF00 !important;
+    font-size: 50px !important;
+}
+.footer-col-1 {
+    width: 12%;
+}
+
+.footer-widgets ul {
+    padding: 0px;
+    list-style: none;
+    padding-left: 2px;
+    font-family: 'Work Sans';
+    color: #004CFF;
+    font-size: 18px;
+    line-height: 41px;
+}
+/*carasoul section */
+
+.clients {
+    margin-top: 40px;
+}
+
+
+.guaranteed p{
+    line-height: 26px;
+}
+
+.form-check p{
+    line-height: 26px;
+}
+
+
+.packeges .form-check {
+       width: 160px;
+    height: 160px;
+    margin: 0px 0px;
+}
+
+
+.footer-form-sec select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+
+.slick-slide img{
+    margin: auto;
+}
+
+.footer-col-2 .fab, .far {
+    margin-top: 20px;
+    font-size: 25px;
+    padding-right: 18px;
+    color: #004CFF;
+}
+
+p.margin-footer {
+    margin-bottom: 40px;
+}
+
+.footer-col-4 {
+    margin-left: 40px;
+    width: 14%;
+}
+
+
+section#scrool-arrow img {
+    float: right;
+    margin-right: 10%;
+    margin-top: -120px;
+}
+
+
+.mobile {
+    display: none !important;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    margin: auto;
+}
+
+.modal-header .btn-close {
+    margin-left: 0px;
+}
+
+.modal-body  button, input, optgroup, textarea{
+    width: 95%;
+    background: #ffffff00;
+    line-height: 45px;
+    padding-left: 20px;
+    font-size: 20px !important;
+    margin: 12px 12px 12px 0px !important;
+    color:#474747d6;
+    font-weight: bold;
+    border: 1px solid #f4f4f4;
+    outline: none;
+}
+
+.footer-form-sec select{
+    color: #8BA8E1;
+}
+
+.modal-body  button#pop_form {
+    background: #004CFF;
+    color: #fff;
+}
+
+.modal-body{
+    margin-left: 15px;
+}
+
+
+.footer-form-field::placeholder, textarea::placeholder{
+color: #8BA8E1;
+}
+
+.footer-text-area{
+color: #fff;
+width: 100%;
+border: 1px solid #558AF1;
+}
+
+
+
+a.hero-pkg-btn:hover > p {
+    color: #000 !important;
+}
+
+
+
+#ICO #Path_37018:hover{
+    transform:translate(404px , 1683px) ;
+    transition: all .2s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+ 
+.portfolio-slider .slick-prev:before{
+    content: url(../img/ICO11.png);
+    opacity: 1;
+   
+
+}
+
+.portfolio-slider .slick-next:before{
+    content: url(../img/svg.svg);
+    opacity: 1; 
+}
+
+
+.portfolio-slider .slick-next, .slick-prev{
+    top: -6%;
+    opacity: 1;
+    right: 6%;
+}
+
+.portfolio-slider .slick-prev{
+    right: 9%;
+    left: auto;
+    opacity: 1;
+}
+
+.portfolio-pkg-btn {
+    font-family: 'Work Sans';
+    font-weight: bold !important;
+    color: #fff;
+    padding: 11px 05px 11px 20px;
+}
+
+.portfolio-sch-btn{
+    font-family: 'Work Sans';
+    font-weight: bold !important;
+    color: #000;
+    padding: 11px 05px 11px 20px;
+
+}
+
+.portfolio-pkg-btn:hover, .portfolio-sch-btn:hover {
+color: #000;
+}
+
+.portfolio-pkg-btn img,.portfolio-sch-btn img {margin-top: -10px;}
+
+
+.pricing-table-blue p.pricing-bottum {
+    color: #FFFF00 !important;
+}
+p.pricing-bottum {
+    line-height: 26px;
+}
+
+
+
+.footer-form-sec button.header-btn.site-button.site-angle img {
+    position: absolute;
+    right: 2%;
+}
+
+.footer-form-sec button.header-btn.footer-form-btn.site-button.site-angle {
+    position: relative;
+    z-index: 0;
+}
+
+.footer-form-sec button.header-btn.footer-form-btn.site-button.site-angle:hover{
+background:#00FF84 !important;
+}
+
+.margin-top {
+    margin-top: 18px;
+}
+
+.footer-form-sec .slick-slide img {
+    float: left;
+;
+}
+
+
+
+.packeges p {
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+
+
+.packeges .form-check .form-check-input{
+    border-radius: 50px;
+}
+
+.packeges ul li{
+    margin: 0px 0px !important;
+}
+
+
+p.margin-client {
+    margin-top: 20px;
+}
+
+
+.footer-form-sec option {
+    color: #000;
+}
+
+
+.footer-form-sec option:active {
+    color: #000;
+}
+
+.footer-col-1 img {
+    margin-bottom: 20px;
+}
+
+/* Home Page CSS End */
+
+
+/*Service Page Start */
+#services-hero-sec {
+    background-position: top right;
+    background-size: cover;
+    background-image: url(../img/Backgroundss.png);
+    background-repeat: no-repeat;
+    height: 940px;
+    display: flex;
+    align-items: center;
+    margin-top: -130px;
+      z-index: 99;
+    position: relative;
+}
+
+.servce-ih {
+    width: 100%;
+}
+
+#services-hero-sec h2 {
+    width: 77%;
+    margin-bottom: 30px;
+}
+
+.services-sec-tech1 img, .services-sec-tech2 img {
+    margin-right: 30px;
+}
+
+.services-sec-tech1 {
+    margin-top: 195px;
+}
+
+.services-sec-tech2 {
+    margin-top: 30px;
+}
+
+
+#our-services{
+    width: 85%;
+    margin: auto;
+    padding: 120px 0px;
+}
+
+
+.our-services-col-1{
+    background-color: #E0FAED;
+}
+
+.our-services-col{
+    padding: 30px 30px 74px 30px;
+}
+
+.our-services-col a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0B2E71;
+}
+
+.our-services-col h3 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: #004CFF;
+}
+
+.our-services-col-2 {
+    background: #E0E5FA;
+    padding: 30px;    
+}
+
+.our-services-col-3 {
+    background: #F8FAE0;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.our-services-col-2 h3{
+padding-bottom: 100px;
+width: 346px;
+}
+
+
+.our-services-col-3 h3{
+    padding-bottom: 100px;
+    width: 346px;
+}
+
+.img-float-right {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+.our-services-col-4 .light-bg{
+background-color: #E5E1E0;
+}
+
+
+.our-services-col-4 .light-pink-bg {
+    background: #FAE0EF;
+    padding: 30px 30px 00px 30px;
+    height: 856px;
+}
+
+.our-services-col-4 .light-pink-bg  ul {
+    padding: 10px 0px 0px 20px;
+}
+
+
+.our-services-col-4 {
+    padding: 12px;
+    padding-top: 30px;
+}
+
+.our-services-col ul {
+    padding: 10px 0px 0px 20px;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    color: #474747;
+    line-height: 30px;
+}
+
+.our-services-col p {
+    line-height: 30px;
+}
+
+.our-services-col-5 {
+background: #ECE0FA;
+padding: 30px 30px 85px 30px;
+
+}
+
+
+#best-services{
+    background: #030917;
+    margin: auto;
+    padding: 120px 0px;
+    background-image: url('../img/Mask Group 25.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+ .best-services-bg{
+    width: 85%;
+    margin: auto;
+}
+
+#best-services h2 {
+    color: #00FF84;
+}
+
+.service-column h2{
+    color: #fff  !important;
+}
+
+#avail{
+    margin: auto;
+    width: 55%;
+}
+
+
+#avail h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.avail-col{
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0px 0px 20px #0000001A;
+    margin-bottom: 30px;
+    height: 330px;
+}
+
+.avail-blue-bg{
+    background: #004CFF;
+}
+
+.avail-blue-bg h2{
+    color: #00FF84;
+  
+}
+
+.avail-blue-bg p{
+    color: #fff;
+}
+
+
+#avail a {
+    background: #004cff;
+    color: #fff;
+    padding: 17px 3px 17px 20px;  
+    border: 1px solid #558AF1;
+    font-weight: bold;
+}
+
+.avail-col-btn img {
+    margin-top: -30px;
+}
+
+.our-services-col-01 {
+    padding-right: 16px;
+}
+
+.our-services-col-05 {
+    margin-top: 30px;
+}
+
+.img-float-right img{
+    float: right;
+}
+#best-services p {
+    color: #fff;
+}
+#best-services .row {
+    margin-top: 40px;
+}
+
+.service-column {
+    padding-left: 120px;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+
+
+h2.startup-h2 {
+    padding-top: 120px;
+}
+
+
+/*Service Page End */
+
+
+
+
+
+/*Digitel Page Start */
+#digitel-hero-sec{
+    background-position: top right;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 940px;
+    display: flex;
+    align-items: center;
+    margin-top: -130px;
+}
+
+
+#digitel-second-sec {
+    margin: auto;
+    width: 85%;
+    padding: 120px 0px;
+}
+
+.digitel-second-sec{
+    margin-top: 60px;
+}
+
+#digitel-scop{
+    margin: auto;
+    width: 85%;
+    padding: 0px 0px 0px 0px;
+}
+
+.digitel-best-services .service-column {
+    padding-left: 0px;
+}
+
+.digitel-best-services{
+    background-image: unset !important;
+    position: relative;
+}
+.digitel-pricing-table{
+    border:1px solid #A5A5A5;
+}
+
+.digitel-pricing-sec{
+    padding: 0px !important;
+}
+
+.digitel-best-services img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#digitel-hero-sec h2 {
+    width: 71%;
+    margin-bottom: 40px;
+}
+
+
+#digitel-hero-sec  .hero-left-sec{
+    top: 325px;
+}
+
+
+#avail a:hover {
+    background: #00FF84;
+    border: 1px solid  #00FF84;
+    color: #000;
+    transition: ease-in-out .3s;
+   }
+
+
+#digitel-second-sec h2 {
+    color: #004CFF;
+    margin-bottom: 30px;
+}
+
+.pricing-h2 {
+    color: #0B1424;
+}
+
+
+.service-col1-img{
+    height: 540px;
+}
+
+
+/*Digitel Page End */
+
+
+.serv-5-img {
+    height: 320px;
+}
+
+
+
+.service-web-design{
+    background-image: unset !important;
+}
+
+
+.service-web-design-col  button.header-btn.site-button.site-angle {
+    width: 185px;
+    margin-left: -10px;
+}
+
+.service-web-design-col  input#form_name {
+    margin: 0px !important;
+    background: #fff;
+    color: #474747;
+    padding: 4px 20px;
+    border: 1px solid #A5A5A5;
+}
+
+.service-web-design-col input#form_name::placeholder {
+    color: #474747;
+}
+
+.service-web-design-col {
+    padding-top: 0px;
+}
+
+.service-web-design-col form{
+padding-top: 0px;
+}
+
+.services-sec-tech1 img, .services-sec-tech2 img {margin: 10px 10px;}
+
+.digitel-h2 {
+    color: #00FF84;
+}
+
+.pricing-table-blue b {
+    color: #ffff00 ;
+}
+
+
+.service-mobile{
+    background-image: unset !important;
+}
+
+.service-ecommerce-hero{
+    background-image: unset !important;
+}
+
+
+.ecommerce-cell-store-col {border: 1px solid #DDE7FC;margin: 50px 14px 10px 0px;}
+
+.ecommerce-sub-cell {
+    padding: 30px 0px 30px 30px;
+}
+
+.ecommerce-sub-cell p.store {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.ecommerce-sub-cell h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0px !important;
+    margin-bottom: 6px !important;
+}
+
+.cell-store-2 {
+    margin: 23px 14px 10px 0px;
+}
+
+
+
+.ecommerce-sub-cell ul {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #474747;
+}
+
+.ecommerce {
+    box-shadow: 0px 0px 20px #0000001A;
+    padding-bottom: 20%;
+
+}
+
+.ecommerce  .Portfolio-btn {
+    width: 100%;
+    padding-top: 20px;
+}
+.ecommerce img.eco-margin {
+    margin: auto;
+    margin-top: -10px;
+}
+
+.ecommerce-cell{
+    padding-top: 70px !important;
+}
+
+
+.ecommerce-cell-store-col img {
+    float: right;
+}
+
+
+.ecommerce-cell-store-col, .ecommerce {
+    height: 430px;
+}
+
+
+.service-brandimg-hero{
+   background-image: unset !important;
+    background: #F7E7E6;
+}
+
+.branding-ser{
+    padding: 120px 0px;
+}
+
+.pricing-h2{
+    color: #004CFF;
+}
+
+#pricing-packeges{
+    width: 85%;
+    margin: auto;
+}
+
+#pricing-packeges .packeges {
+    border: 1px solid #A5A5A5;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#pricing-packeges .packeges h2 {
+    color: #004CFF;
+}
+
+.pricing-page-sec {
+    padding-bottom: 60px;
+}
+
+#best-pricing-services{
+  
+    margin: auto;
+    padding: 80px 0px 40px 0px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+p.counter-count {
+    font-size: 50px;
+    color: #004CFF;
+    font-weight: bold;
+}
+
+.counter-sec {
+    padding: 20px 25px;
+    border-radius: 10px;
+    background: #DDE7FC;
+    margin: 30px 12px 10px 0px;
+}
+
+
+.counter-sec p {
+    margin-top: 15px;
+}
+
+.customer.counter-sec {
+    background: #E0FAED;
+}
+
+.design.counter-sec {
+    background: #E6E0FA;
+}
+
+.order.counter-sec {
+    background: #FAE0EF;
+}
+
+.counter-img {
+    top: -90px !important;
+    width: 50%;
+}
+
+#money-back {
+    width: 85%;
+    margin: auto;
+}
+
+#money-back .money-back-h2{
+    color: #030917;
+    text-align: center;
+}
+
+
+.before-btn .fa-angle-up {
+    margin-top: -15px;
+    margin-right: -10px;
+    transform: rotate(48deg);
+    color: #FFFF00;
+}
+
+
+.before-btn:hover .fa-angle-up{
+   color: #004CFF; 
+}
+
+.order-btn .fa-angle-up{
+    position: absolute;
+    padding-top: 6px;
+}
+
+.before-btn-port .fa-angle-up{
+margin-right: 12px;
+}
+
+
+
+
+
+.before-btn-ordr .fa-angle-up {
+    padding-top: 7px;
+}
+
+.trusted {
+    border: 1px solid #A5A5A5;
+    padding: 20px;
+}
+
+p.bold-Trusted {
+    font-weight: bold;
+    color: #0B1424;
+    line-height: 36px;
+    margin-top: 15px;
+}
+
+.payment-sec-1{
+    width: 980px;
+    margin: auto;
+    margin-top: 40px;
+}
+.bold-Trusted-1 {
+    margin-top: 20px !important;
+}
+
+.portfolio-page-tabs {
+    padding: 0px !important;
+    width: 85%;
+}
+
+
+.portfolio-scrool-img {
+    margin-top: 25px;
+}
+
+
+.portfolio-page {
+    padding-bottom: 20px !important;
+}
+
+
+.about-hero{
+background-image: url('../img/header-aboutee.jpg') !important;
+}
+
+.about-fa-btn{
+    width: 190px !important;
+}
+
+.about-btn-view {
+    margin-top: 35px;
+}
+
+
+#about-process{
+    margin: auto;
+    width: 85%;
+}
+
+.about-process-img{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-process-img img {margin-top: -645px;}
+
+.about-process-col {
+    text-align: right;
+}
+
+.about-process-col h2 {
+    font-size: 30px;
+    color: #030917;
+}
+
+h2.about-process-h2 {
+    color: #00FF84;
+    margin-bottom: 40px;
+}
+
+.about-process-col-right {
+    text-align: left;
+}
+
+
+.about-process-col {
+    height: 165px;
+    width: 100%;
+}
+
+.about-process-col-right-2 {
+    position: relative;
+    top: 100%;
+}
+
+.about-process-col-right-1 {
+    position: relative;
+    top: 275%;
+}
+
+.about-process-col-left {
+    position: relative;
+    top: 172%;
+}
+
+.contact-footer-form {
+    background: #fff !important;
+}
+
+.contact-footer-form h2 {
+    color: #004cff;
+}
+
+
+.contact-footer-right {
+    border: 1px solid #D8D8D8;
+}
+
+.contact-footer-form input, optgroup, select, textarea {
+    border: 1px solid #D8D8D8;
+    color: #474747;
+}
+
+.contact-footer-form .footer-text-area{
+    border: 1px solid #D8D8D8;
+    color: #474747;
+}
+
+
+.contact-footer-form ::placeholder {
+    color: #D8D8D8 !important;
+}
+
+.contact-footer-form select{
+    color: #D8D8D8;
+}
+
+.contact-footer-form label {
+    color: #474747;
+}
+
+
+.contact-footer-form .margin-top {
+    margin-top: 15px;
+}
+
+
+.contact-footer-form .header-btn {
+    border: none;
+}
+
+ 
+.contact-footer-form h2.contact-email a {
+    color: #00FF84;
+    font-size: 30px;
+    text-decoration: revert;
+}
+
+.price-section-home {
+    width: 80% !important;
+    margin: auto !important;
+}
+
+.contact-sec-2 {
+    padding: 120px 0px 0px 0px !important;
+}
+
+.contact-footer-form-sec {
+    padding: 40px 0px 10px 0px;
+}
+
+.contact-pck-guaranteed .guaranteed {
+    padding: 0px 15px!important;
+}
+
+.contact-pck-guaranteed .guaranteed p {
+    font-size: 18px;
+}
+
+.contact-money-back{
+    width: 100% !important;
+    margin: auto !important;
+}
+
+
+.contact-pck-guaranteed .guaranteed {
+    padding: 0px 15px 0px 0px!important;
+}
+
+.contact-pck-guaranteed{
+    
+padding-top: 50px;}
+
+.contact-money-back {
+    margin-left: 50px !important;
+}
+.contact-footer-right {
+    margin-top: 160px;
+}
+
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7f7f7;
+    min-width: 285px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 12%);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
+  .dropdown-content ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 16px !important;
+}
+
+
+.dropdown-content li a {
+    font-size: 16px !important;
+}
+
+.dropdown-content {
+    padding-top: 13px;
+}
+
+.pricing-btn a {
+    border: 0px;
+    z-index: 0;
+}
+
+.pricing-btn a:hover {
+    border: 0px;
+}
+
+.avail-col-btn {
+    position: relative;
+}
+
+.avail-col-btn .fa-angle-up {
+    position: absolute;
+    right: 15px;
+    top:15px;
+}
+
+
+.col-sm-6.light-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-servie{
+    display: none;
+}
+
+.sidenav a:hover {
+    color: #004CFF;
+}
+
+
+.mobile-servie-sec{
+    display: none;
+}
+
+
+.mobile-show-scope {
+    text-align: center;
+}
+
+.mobile-show-scope img {
+    margin-top: 30px;
+}
+
+.mobile-show-scope{
+    display: none;
+}
+.desktop-show-scope{
+    display: block;
+}
+
+.about-img-procc{
+display: none;
+}
+
+.portfolio-sch-btn img {
+    margin: 0px;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+}
+
+.portfolio-sch-btn {
+    position: relative;
+    padding: 11px 20px 11px 20px;
+}
+
+.hero-sec-btn {justify-content: flex-start;}
+
+svg#svg-castle{
+    right: 29.8%;
+}
+
+
+.clients-col:hover {
+    background: #004CFF;
+}
+
+.clients-col:hover h3 {
+color: #fff;
+margin-top: 10px;
+transition: all .4s ease-in-out; 
+}
+
+.clients-col:hover a {
+    color: #fff;
+}
+
+.sidenav > ul > li{
+    list-style: none;
+    display: block;
+    float: left;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.sidenav > ul > li > ul{
+ display: none;
+    position: absolute;
+    background-color: #f7f7f7;
+    min-width: 285px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 12%);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.sidenav ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    list-style: none;
+}
+
+.sidenav > ul > li > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 310px;
+}
+
+
+.sidenav > ul > li > ul a {
+    padding: 7px 0px 8px 25px;
+}
+
+
+.sidenav > ul > li > ul {
+    padding: 18px 0px;
+}
+
+.sidenav > ul > li > ul > li {
+    font-size: 15px ;
+}
+
+
+.sidenav span:active {
+    color: #004CFF !important;
+}
+
+
+
+
+.sidenav span {
+    color: #000;
+}
+
+.sidenav > ul > li > ul > li span {
+    font-size: 16px !important;
+}
+
+.sidenav span:hover {
+    color: #004CFF;
+}
+
+
+.sidenav  {
+    margin-left:0px;
+    z-index:99999;
+}
+
+.sidenav ul {
+    padding: 0px;
+}
+
+
+
+.sidenav > ul > li {
+    z-index: 99;
+}
+
+
+.error {
+    color: red!important;
+    margin-left: 16px;
+}
+
+button#quote_button {
+    background: #004CFF;
+    color: #fff;
+    border: unset;
+}
+
+.header-call a {
+    z-index: 99;
+}
+
+
+.modal-title{
+    color:#004CFF;
+}
+
+
+.clients-col-yellow:hover {
+    background: #00FF84;
+}
+
+.header-call a {
+    z-index: 99;
+}
+
+.header-call-btn {
+    z-index: 99;
+}
+
+li.active span {
+    color: #004CFF !important;
+}
+
+
+/*.site-angle:hover img {*/
+/*    visibility: hidden !important;*/
+/*}*/
+
+/*.site-angle:hover .fa-angle-up{*/
+/*  visibility: hidden !important;*/
+/*}*/
+
+/*.avail-col-btn:hover .fa-angle-up{*/
+/*   visibility: hidden !important;*/
+/*}*/
+
+
+.site-angle:hover img {
+   visibility: hidden !important;
+   margin-top: -50px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   margin-left: 10px;
+   margin-right: -26px;
+}
+
+
+.site-angle:hover .fa-angle-up{
+   visibility: hidden !important;
+   margin-top: -20px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   margin-left: 10px;
+   margin-right: -20px;
+}
+
+
+.Portfolio-btn .site-angle:hover .fa-angle-up{
+   visibility: hidden !important;
+   margin-top: -24px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   margin-left: 10px;
+   margin-right: 02px;
+}
+
+.Portfolio-btn .site-angle:hover img {
+   visibility: hidden !important;
+   margin-top: 0px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   margin-left: 0px;
+   margin-right: 0px;
+   position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.pricing-btn-blue .site-angle:hover .fa-angle-up{
+   visibility: hidden !important;
+   transition: all .2s ease-in-out;
+   position: absolute;
+}
+
+
+
+.ecommerce  .portfolio-sch-btn:hover img {
+   visibility: hidden !important;
+   margin-top: -20px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   margin-left: 0px;
+   margin-right: -18px;
+}
+
+.ecommerce .portfolio-sch-btn  img {
+       margin-top: 0px;
+}
+
+.ecommerce  .portfolio-pkg-btn:hover img {
+   visibility: hidden !important;
+   margin-top: -20px;
+   transition: all .2s ease-in-out;
+   position: relative;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+
+
+.footer-form-sec .site-angle:hover img {
+   visibility: hidden !important;
+   transition: all .2s ease-in-out;
+   position: relative;
+   margin-left: 10px;
+   margin-right: -26px;
+   margin-top: -20px !important;
+}
+/*.site-angle:hover .fa-angle-up{*/
+/*   visibility: hidden !important;*/
+/*   margin-top: -50px;*/
+/*   transition: all .2s ease-in-out;*/
+/*   position: relative;*/
+/*   margin-left: 10px;*/
+/*   margin-right: -6px;*/
+/*}*/
+
+
+.avail-col-btn:hover .fa-angle-up{
+    visibility: hidden !important;
+   transition: all .2s ease-in-out;
+   position: absolute;
+   margin-left: 10px;
+   margin-right: -22px;
+   margin-top:-20px;
+
+}
+
+
+
+
+.clients-col h3 {
+        font-size: 30px;
+}
+
+.clents-img {
+    position: absolute;
+    top: 240px;
+}
+
+.clients-col {
+    position: relative;
+}
+
+
+.clients-col:hover #Path_37018{
+    transform:translate(404px , 1683px);
+    transition: all .2s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.clients-col:hover{
+      transition: all .4s ease-in-out;
+}
+
+
+
+.clients-col svg {
+    margin-top: -05px;
+}
+
+.portfolio-scrool-img {
+    padding: 0px 13px;
+}
+
+.curve-line svg#svg-castle {
+    right: 16px;
+    width: 48%;
+    top: -110px;
+    display: none;
+}
+
+
+.contact-footer-form-sec {
+    width: 85%;
+}
+
+
+
+
+
+
+
+.icon-bar {
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  top:298px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:9999;
+}
+
+icon-bar .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+icon-bar .icon-bar a:hover {
+  background-color: #000;
+}
+
+
+
+icon-bar .phone {
+  background: #007bb5;
+  color: white;
+}
+
+icon-bar .comment {
+  background: #bb0000;
+  color: white;
+}
+
+
+.icon-bar a {
+    background: #004CFF;
+    color: #fff;
+    padding: 12px 17px 12px 12px;
+    margin: 5px 0px;
+    font-size: 25px;
+   transition: all .2s ease-in-out;
+    margin-left: -152px;
+
+}
+
+
+.icon-bar span {
+    color: #fff;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+
+.icon-bar a:hover {
+    margin-left: 0px;
+}
+
+
+.icon-bar-p {
+    top: 230px;
+}
+
+.icon-bar.icon-bar-p a {
+    padding-right: 23px;
+}
+
+
+
+.main-form input {
+   visibility: visible !important;
+}
+
+#sidebar-form input {visibility: hidden;}
+
+
+
+
+.main-form {
+    width: 360px !important;
+    background: #030917;
+    height: 100%;
+    padding: 30px;
+}
+
+.main-form p{
+display: block !important;
+}
+#sidebar-form {
+    position: relative;
+    z-index: 999999;
+    width: 0% ;
+    transition: width .2s;
+
+}
+
+
+
+
+
+#sidebar-form p {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Lato';
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+left-form button #sidbar_button {
+    background: #FFFF00;
+    color: #000000;
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+}
+
+.main-form input {
+    border: 1px solid #558AF1;
+    color: #8BA8E1;
+    font-size: 14px !important;
+    width: 100%;
+}
+
+.main-form input::placeholder {
+    color: #8BA8E1;
+    font-size: 14px;
+}
+
+#sidebar-form p{
+display: none;
+}
+
+
+.left-form {
+    display: flex;
+    position: fixed;
+    top: 338px;
+    left: -1px;
+}
+
+#sidebar-form p {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Lato';
+    color: #fff;
+}
+
+#sidebar-form p {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Lato';
+    color: #fff;
+}
+
+
+.left-form button#sidbar_button {
+    background: #FFFF00;
+    color: #000000;
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#sidebar-form button#sidbar_button {
+    display: none;
+}
+
+.main-form button#sidbar_button {
+    display: block !important;
+}
+
+
+ .form-side-button {
+    transform: rotate( 
+-90deg);
+    margin-top: 0px;
+    background: #004CFF;
+    border: unset;
+    color: #fff;
+    font-size: 20px;
+    font-family: lato;
+    padding: 10px 20px;
+    position: relative;
+    left: -59px;
+    top: 54px;
+    height: 62px;
+}
+
+
+.form-side-button:hover {
+    background: #004CFF;
+}
+
+
+div#player-overlay video {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    z-index: 999;
+}
+
+div#player-overlay {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.header-logo {
+    z-index: 99999;
+}
+
+
+
+ .hero-left-sec {
+    z-index: 999;
+ }    
+
+#scrool-arrow img {position: relative;z-index: 999;}
+
+#digitel-hero-sec {
+    position: relative;
+}    
+
+
+i.hameburger.fa.fa-bars {
+    z-index: 99999;
+    position: relative;
+}
+
+
+div#player-overlay video {
+    z-index: 99;
+    position: relative;
+}
+
+
+.icon-bar {
+    z-index: 9;
+}
+
+
+#hero-sec {
+    position: relative;
+    z-index: 999;
+}
+
+
+#services-hero-sec{
+    z-index: 99;
+    position: relative;
+}
+
+
+.form-side-button {
+    left: -60px;
+    min-width: 175px;
+    top: 57px;
+}
+
+.left-form {
+    width: 60px;
+}
+
+
+.about-hero {
+    z-index: 99;
+}
+
+
+.digitel-pricing-sec-exp {
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    margin-top: -38px !important;
+}
+
+.digitel-pricing-sec-exp .pricing-page-sec {
+    padding-bottom: 0px;
+    margin-bottom: -50px;
+}
+
+
+
+.digitel-pricing-sec-exii {
+    width: 100% !important;
+    position: relative;
+    z-index: 99;
+    background: #fff;
+    margin-top: -38px !important;
+}
+
+#digitel-second-sec h2 {
+    margin-left: 0%;
+}
+
+.contact-sec-xii h2 {
+    margin-left: 12% !important;
+}
+
+
+.digitel-pricing-sec-exii h2{
+    margin-left: 12% !important;
+}
+
+.contact-sec-xii {
+    width: 100% !important;
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    margin-top: -38px !important;
+}
+
+#sidebar-form .fa-angle-up {
+    position: absolute;
+    margin-top: -14px;
+    margin-left: 66px;
+    transform: rotate(
+48deg);
+    color: #004CFF;
+    font-size: 20px;
+}
+
+
+.modal-body .fa-angle-up {
+    position: absolute;
+    margin-top: 0px;
+      right: 9px;
+    transform: rotate( 
+48deg);
+    color: #FFFF00;
+    font-size: 20px;
+}
+
+ .modal-body button#quote_button{
+        position: relative;
+}
+
+
+#sidebar-form .error {
+    display: none;
+}
+
+.main-form .error {
+    display: block !important;
+}
+
+
+.last-btn {
+    width: 197px !important;
+}
+
+
+#sidebar-form button#sidbar_button {
+    border: unset;
+}
+
+
+.active > ul > li > a > span {
+    color: #818181 !important;
+}
+
+
+
+#left-sideform {
+  display: none !important;
+}
+
+#left-sideform.hide {
+  display: block !important;
+
+}
+
+div#left-sideform {
+    z-index: 999;
+    position: relative;
+}
+
+.banr.ppolicy {
+    background-image: url(../img/policy-bannerr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 190px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004CFF;
+    font-family: 'Work-Sans700', sans-serif;
+}
+
+.ppolicy-main {
+    margin: 60px 0px;
+}
+
+.ppolicy-main h1 {
+    font-family: 'Work-Sans700', sans-serif;
+    font-size: 26px;
+    margin:40px 0px 17px 0px;
+    font-weight: 600;
+}
+
+.bgcolrgr ul {
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: #474747;
+    line-height: 34px;
+    margin-top: 18px;
+}
+
+
+.header-btn {
+    margin-top: -6px;
+}
+
+
+
+
+
+/*  Updated Buttons   Start */
+.updated-btnn *, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.updated-btnn button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+.updated-btnn a{
+  display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0px 6px;
+}
+
+
+.updated-btnn button, .updated-btnn button:hover, .updated-btnn button span, .updated-btnn button:hover span {	transition: all .3s ease-out;}
+.updated-btnn a, .updated-btnn a:hover, a , .updated-btnn a:hover span {	transition: all .3s ease-out;}
+.updated-btnn span{
+  display: block;
+  padding: 20px 40px 20px 20px;
+  font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+  font-size: 20px;
+}
+.updated-btnn button:hover span{  padding: 20px 30px;}
+.updated-btnn a:hover span{  padding: 20px 30px;}
+.updated-btnn button::before, .updated-btnn button::after{
+  content:"";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+
+.updated-btnn a::before, .updated-btnn a::after{
+  content:"";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+.updated-btnn span::before, .updated-btnn span::after{
+  content:"";
+  width:3px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+.updated-btnn button::after{  width:0;height:1px;}
+.updated-btnn a::after{  width:0;height:1px;}
+.updated-btnn span::before{  height:0;width:1px;}
+.updated-btnn button::before{  width:8px;}
+.updated-btnn a::before{  width:8px;}
+.updated-btnn span::after{  height:8px;}
+
+.updated-btnn button:hover::before, .updated-btnn button:hover::after{
+  width: calc(100% - 20px);
+	height: 1px;
+}
+.updated-btnn button:hover span::before, .updated-btnn button:hover span::after{
+  height: calc(100% - 20px);
+	width: 1px;
+}
+
+.updated-btnn a:hover::before, .updated-btnn a:hover::after{
+  width: calc(100% - 20px);
+	height: 1px;
+}
+.updated-btnn a:hover span::before, .updated-btnn a:hover span::after{
+  height: calc(100% - 20px);
+	width: 1px;
+}
+/*----- button 3 -----*/
+.updated-btnn .btn-3::after{
+  right: 10px;
+  bottom: 10px;
+  transition-delay: 0s;
+}
+.updated-btnn .btn-3 span::after{
+  transition-delay: 0.2s;
+  right: 10px;
+  top: 10px;
+}
+.updated-btnn .btn-3::before{
+  right: 10px;
+  top: 10px;
+  transition-delay: 0.2s;
+}
+
+.updated-btnn .btn-3 span::before{
+  transition-delay: 0s;
+  left: 10px;
+  top: 10px;
+}
+
+.updated-btnn .btn-3:hover::after{
+  transition-delay: 0.2s;
+}
+.updated-btnn .btn-3:hover span::after{
+  transition-delay: 0s;
+}
+.updated-btnn .btn-3:hover::before{
+  transition-delay: 0s;
+}
+.updated-btnn .btn-3:hover span::before{
+  transition-delay: 0.2s;
+}
+
+.updated-btnn .blue{background-color: #004CFF; border: 1px solid #fff;} .blue:hover{color:#000}
+.updated-btnn .green{background-color: #00FF84; border: 1px solid #fff}
+.updated-btnn .yellow{background-color: #FFFF00; color:#000; border: 1px solid #fff}
+.updated-btnn .blue-border{background-color: none; color:#000; border: 1px solid #558AF1;}
+.updated-btnn .blue:hover, .updated-btnn .green:hover, .updated-btnn .yellow:hover, .updated-btnn .blue-border:hover{	border: 1px solid transparent;}
+
+
+.updated-btnn button.blue::before, .updated-btnn button.blue::after, .updated-btnn .blue span::before, .updated-btnn .blue span::after{  background: #FFFF00;}
+.updated-btnn button.blue::after{background: #004CFF} .updated-btnn .blue span::before{background: #004CFF}
+.updated-btnn button.blue:hover::before, .updated-btnn button.blue:hover::after, .updated-btnn button.blue:hover span::before, .updated-btnn button.blue:hover span::after{  background: #004CFF;}
+
+.updated-btnn button.yellow::before, .updated-btnn button.yellow::after, .updated-btnn .yellow span::before, .updated-btnn .yellow span::after{
+  background: #004CFF;
+}
+.updated-btnn button.yellow:hover::before, .updated-btnn button.yellow::after, .updated-btnn .yellow span::before, .updated-btnn .yellow span::after{
+  background: #004CFF;
+}
+ 
+.updated-btnn button.greenbtn:hover{
+	background-color: #00FF84;
+}
+
+
+.updated-btnn button.blue-border::before, .updated-btnn button.blue-border::after, .updated-btnn .blue-border span::before, .updated-btnn .blue-border span::after{
+  background: #004CFF;
+}
+
+
+.updated-btnn a.blue::before, .updated-btnn a.blue::after, .updated-btnn .blue span::before, .updated-btnn .blue span::after{  background: #FFFF00;}
+.updated-btnn a.blue::after{background: #004CFF} .blue span::before{background: #004CFF}
+.updated-btnn a.blue:hover::before, .updated-btnn a.blue:hover::after, a.blue:hover span::before, a.blue:hover span::after{  background: #004CFF;}
+
+a.yellow::before, a.yellow::after, .yellow span::before, .yellow span::after{
+  background: #004CFF;
+}
+a.yellow:hover::before, a.yellow::after, .yellow span::before, .yellow span::after{
+  background: #004CFF;
+}
+
+a.greenbtn:hover{
+	background-color: #00FF84;
+}
+
+a.blue-border::before, button.blue-border::after, .blue-border span::before, .blue-border span::after{
+  background: #004CFF;
+}
+
+a.blue-border::before, a.blue-border::after, .blue-border span::before, .blue-border span::after{
+  background: #004CFF;
+}
+
+.updated-btnn span {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Updated Buttons End */
+
+.pricing-table ul {
+    overflow-y: auto;
+    height: 268px;
+}
+
+.pricing-btn {
+    margin-top: 38px;
+}
+
+.pricing-table ul {
+    margin-top: 10px;
+}
+
+.icon-bar.icon-bar-p span {
+      padding: 0px!important;
+    padding-right: 9px!important;
+}
+
+
+.clents-img {
+    padding-top: 8px;
+    top: unset;
+}
+
+.clients-col {
+    padding-bottom: 75px;
+}
+
+
+.ports-colss {
+    margin: 80px auto !important;
+}
+
+
+.clients-sec .col-lg-4 {
+    margin-top: 35px;
+}
+
+.second-left-col button.header-btn.site-button.site-angle {
+    margin-top: 0px;
+}
+
+.pricing-table {
+    border: 1px solid #afacac;
+}
+
+#mySidenav  .active > ul > li > a > span {
+    color: #000 !important;
+}
+
+@media (max-width:1700px) {
+.hero-sec-tech img{
+        top: 150px;
+}
+}
+
+@media (max-width:1800px) {
+    
+section#scrool-arrow img{
+    margin-top: -217px !important;
+}
+
+#digitel-hero-sec {
+    height: 830px;
+}
+
+}
+
+@media (max-width:1600px) {
+    
+    .footer-widgets{
+         width: 90%;
+    }
+    
+    .curve-line svg#svg-castle {
+    right: 16px;
+    width: 630px;
+    top: -225px;
+}
+}
+
+@media (max-width:1500px) {
+    
+    .icon-bar-p {
+      top: 120px !important;
+     }
+     
+   .icon-bar {
+    top: 190px;
+     }
+    
+    
+   .left-form {
+    display: flex;
+    position: fixed;
+    top: 228px;
+    left: -1px;
+    }
+    
+    
+    .counter-img {
+        top: 150px !important;
+    }
+  
+  
+  .footer-form-sec h2 {
+    margin-bottom: 30px;
+}
+  
+  .footer-logo {
+    margin-top: 40px;
+}
+
+.footer-logo img {
+    margin-top: 20px;
+}
+  
+  #second-sec h2{
+      width: 100% !important;
+  }
+
+    section#second-sec {
+        padding: 0px 0px 40px 0px;
+        
+    }
+    .sidenav a {
+        padding: 8px 14px 8px 15px;
+    }
+
+    .sidenav {
+        margin-left: 20px;
+    }
+
+    .hero-left-sec {
+        position: absolute;
+        left: 6%;
+        top: 240px;
+    }
+
+    .second-right-col img {
+        width: 100%;
+    }
+
+    
+
+    .Portfolio-btn {
+        width: 50%;
+    }
+
+    .second-left-col button.header-btn.site-button.site-angle {
+        padding: 15px 18px;
+    }
+
+    .footer-col-1 {
+        margin-right: 50px !important;
+    }
+
+    .footer-widgets  h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .footer-widgets .fab, .far {
+        margin: 20px 18px 0px 0px;
+        color: #004CFF;
+        font-weight: 400;
+    }
+    
+    .footer-widgets p.blue-footer a {
+        font-size: 18px;
+        color: #004CFF;
+    }
+    
+    .footer-widgets .footer-col-2 p {
+        font-size: 18px;
+    }
+    
+    .footer-widgets .footer-col-2 b {
+        font-size: 18px;
+    }
+
+    #hero-sec h2{
+        width: 95%;
+    }
+
+    .footer-clients-col-yellow a {
+        font-size: 30px !important;
+    }
+
+    #portfolio-tabs h2 {
+        font-size: 35px;
+    }
+    
+    .footer-right-bg .number {
+        width: 15%;
+    }
+    
+
+    .hero-sec-tech img{
+        top: 141px;
+    }
+
+    section#scrool-arrow img {
+        float: right;
+        margin-right: 10%;
+        margin-top: -90px;
+    }
+    
+
+    #hero-sec{
+        height: 730px;
+    }
+    
+    .portfolio-slider .slick-next, .slick-prev {
+        top: -8%;
+        opacity: 1;
+        right: 5%;
+    }
+
+    #digitel-hero-sec {
+        height: 700px;
+    }
+    
+    #digitel-hero-sec .hero-left-sec {
+        top: 220px;
+        left: 6%;
+    }
+    
+    #avail {
+        width: 70%;
+    }
+
+    .services-sec-tech1 img, .services-sec-tech2 img {
+        margin-top: 30px;
+    }
+    
+    .digitel-second-sec {
+        margin-top: 0px;
+    }
+
+    #services-hero-sec {
+        height: 1000px;
+    }
+    
+    .services-sec-tech1 {margin-top: 80px;}
+
+    .service-column {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    
+    #best-services {
+        background-image: unset;
+    }
+
+    h2.startup-h2 {
+        padding-top: 60px;
+    }
+
+    #digitel-hero-sec h2 {
+        width: 100%;
+    }
+
+
+.second-left-col button.header-btn.site-button.site-angle {
+    width: 196px;
+}
+
+#second-sec, .clients-sec, #carasoul,.footer-form-sec {
+    width: 85%;
+}    
+
+#portfolio-tabs {
+    padding: 120px 0px 120px 140px;
+}
+
+.price-section-home {
+    width: 85% !important;
+}
+
+.home-left-colss {
+    margin-top: 170px !important;
+}
+}
+
+
+
+
+@media (max-width:1400px) {
+.home-left-colss {
+    margin-top: 170px !important;
+}
+
+.header-call{
+position: relative;
+}
+
+section#scrool-arrow img{
+margin-top: -110px;
+}
+svg#svg-castle {
+    position: absolute;
+    width: 300px;
+    top: -310px;
+    right: 32%;
+}
+
+    .our-services-col-4 .light-pink-bg {height: 900px;}
+
+.footer-col-4 {
+    width: 14%;
+}
+
+.footer-col-2 {
+    width: 30%;
+}
+
+.our-services-col-2 h3, .our-services-col-3 h3{
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.img-float-right{
+    justify-content: center;
+}
+
+
+.our-services-col-1.our-services-col {
+    padding: 30px 30px 0px 30px;
+    height: 272px;
+}
+
+.our-services-col-2 h3, .our-services-col-3 h3 {
+    padding-bottom: 0px;
+    height: auto;
+}
+
+.our-services-col-3,.our-services-col-2 {
+    height: 391px;
+}
+
+
+.sidenav {
+    padding: 0px;
+}
+
+#hero-sec {
+    margin-top: -107px;
+}
+
+.clients-col h3 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+}
+
+@media (max-width:1350px) {
+    .counter-sec {
+        height: 80%;
+    }
+
+svg#svg-castle {
+    position: absolute;
+    width: 280px ;
+    top: -260px;
+    right: 28%;
+}
+    .second-left-col button.header-btn.site-button.site-angle {
+        width: 179px;
+    }
+
+    .footer-widgets {
+        width: 90%;
+        padding: 100px 0px 40px 0px;
+    }
+
+ .footer-col-2 {
+        width: 25%;
+    }
+
+    .footer-form-right {
+        padding: 30px;
+    }
+
+    .packeges ul {
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .packeges ul {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    #portfolio-tabs h2 {
+        line-height: 38px;
+    }
+
+    #hero-sec h2{
+        width: 100%;
+    }
+
+    .hero-sec-tech img {
+        top: 80px;
+    }
+
+    .second-left-col {
+        padding: 0px 0px;
+    }
+
+    .ecommerce  .portfolio-sch-btn {
+        margin-top: 20px;
+    }
+
+    .about-sec-2 {
+        padding: 60px 0px !important;
+    }
+
+    
+    #carasoul {
+        padding: 60px 0px 100px 0px;
+    }
+
+
+}
+
+@media (max-width:1300px) {
+    
+    a.header-call.site-button.top-header-btn b {
+    font-size: 18px;
+}
+
+.header-contact-btn b {
+    font-size: 18px;
+}
+
+.sidenav span {
+    font-size: 18px;
+}
+}
+
+@media (max-width:1200px) {
+    #digitel-second-sec {
+    margin-top: 10%;
+}
+
+    .about-img-procc{
+        display: block;
+        }
+
+    h2.about-process-h2{
+        margin: 0px;
+    }
+
+    .about-process-col {
+        height: auto;
+        top: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #about-process .col-md-5,  #about-process .col-md-2{
+width: 100%;
+    }
+      
+
+    .about-process-img {
+        display: none;
+    }
+
+    .about-process-img img {
+        width: 15%;
+    }
+    
+    .about-process-col h2 {
+        font-size: 25px;
+    }
+  svg#svg-castle {
+    display: none;
+}
+
+    .our-services-col-4 .light-pink-bg{
+        height: auto;
+    }
+
+    .client-blue-bg a {
+        font-size: 25px;
+    }
+    
+    img.number {
+        width: 16%;
+    }
+    
+    .footer-clients-col-yellow a {
+        font-size: 25px !important;
+    }
+
+    .hero-left-sec {
+        position: inherit;
+    }
+    
+    .sidenav a {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+    
+    .header-contact-btn b {font-size: 20px;}
+    
+    .header-contact-btn a {
+        padding: 10px 10px 10px 10px;
+        margin-left: 15px;
+    }
+    
+    .header-contact-btn img {width: 30%;}
+    
+    .header-call a {
+        padding: 0px !important;
+    }
+    
+    .site-button {
+        padding: 10px 12px;
+    }
+    
+    #hero-sec h2 {
+        width: 60%;
+        margin-left: 40px;
+    }
+    
+    .hero-sec-btn {
+        margin-left: 40px;
+    }
+
+
+    .hero-sec-tech {
+        padding: 0px 150px 0px 40px;
+    }
+    .Portfolio-btn {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    .packeges ul{
+        flex-wrap: nowrap;
+    }
+
+    .digitel-best-services img{
+        display: none;
+    }
+
+    #avail {
+        width: 85%;
+    }
+
+    h2.startup-h2 {
+        padding-top: 50px;
+    }
+    
+    .service-column {
+        padding-top: 0px;
+    }
+
+    #digitel-hero-sec h2 {
+        margin-left: 40px;
+    }
+    
+    #digitel-second-sec {
+        padding: 40px 0px;
+    }
+    
+    .price-section {
+        padding: 60px 0px;
+    }
+    
+    #best-services {
+        padding: 50px 0px;
+    }
+
+    #services-hero-sec h2 {
+        margin-left: 40px;
+        margin-top: 190px;
+    }
+    
+    .services-sec-tech1 {
+        margin-top: 300px;
+        text-align: center;
+    }
+    
+    .services-sec-tech2 {
+        text-align: center;
+    }
+    
+    #services-hero-sec {
+        height: 520px;
+    }
+
+    .hero-left-sec {
+        position: relative;
+        left: 0px;
+    }
+
+    .services-sec-tech1, .services-sec-tech2 {
+        display: none;
+    }
+    
+    #services-hero-sec h2 {
+        margin-top: 0px;
+    }
+    
+    .hero-left-sec {
+        top: 30px;
+    }
+
+    .our-services-col-2 {
+        margin-top: 30px;
+    }
+
+    .our-services-col-2 {
+        margin-top: 30px;
+    }
+    
+    #our-services {
+        padding: 40px 0px;
+    }
+
+    #digitel-hero-sec .hero-left-sec {
+        top: 0px;
+        left: 0px;
+    }
+    
+    .hero-sec-btn {
+        margin-left: 80px;
+    }
+    
+    
+    
+    .header-contact-btn b {
+        font-size: 18px;
+    }
+    
+    .header-contact-btn b {
+        font-size: 18px !important;
+    }
+    
+    a.header-call.site-button.top-header-btn b {
+        font-size: 18px;
+    }
+    
+    .sidenav a {
+        font-size: 18px;
+    }
+    
+    header {
+        padding: 15px 0px;
+    }   
+
+    #digitel-hero-sec h2 {
+        width: 60%;
+        margin-left: 80px;
+    }
+
+
+    .payment-sec-1{
+        width: 100%;
+    }
+
+    .trusted {
+        height: 100%;
+    }
+    
+    
+    
+header {
+    width: 95%;
+}
+
+.header-contact-btn a {
+    padding: 10px 0px 10px 10px;
+}
+
+.sidenav a {
+        padding-top: 30px;
+}
+
+.header-contact-btn b {
+    font-size: 16px;
+}
+
+.header-contact-btn b, .header-call-btn b {
+    font-size: 16px !important;
+}
+
+.header-logo img {
+    width: 130px;
+}
+
+header {
+    padding: 0px 0px 20px 0px;
+}    
+    
+
+.site-button {
+    padding: 10px 20px;
+}
+   
+   
+.sidenav span {
+    font-size: 16px !important;
+}   
+
+
+.site-button {
+    padding: 7px 20px;
+}
+
+.header-contact-btn a {
+    padding: 7px 0px 7px 10px;
+}
+#hero-sec {
+    margin-top: -122px;
+}
+
+ 
+ img.number {
+    width: 36px;
+}
+ 
+.digitel-pricing-sec-exii h2 {
+    margin-left: 7% !important;
+    margin-top: 30px;
+} 
+ 
+    
+}
+
+
+
+
+@media (max-width:1024px) {
+    
+.home-left-colss {
+    margin-top: 0px!important;
+}    
+    
+#second-sec {
+    margin-top: 15%;
+}
+
+.sec-col-img-bg {
+    margin-top: 50px;
+}
+    
+.mobile-show-scope{
+    display: block;
+}
+.desktop-show-scope{
+    display: none;
+}
+
+    .requ-btn b {
+        color: #000 !important;
+    }
+    
+    .mobile b:hover {
+        color: #000;
+    }
+    
+ 
+
+    .dropdown-content {
+        display: block;
+        position: unset;
+        padding: 0px;
+        background: unset;
+        padding-left: 41px;
+    }
+    
+    .dropdown-content li a {
+        padding: 5px 0px;
+    }
+
+
+    h2.startup-h2 {
+        padding-top: 30px;
+    }
+    .service-column {
+        padding-top: 30px;
+    }
+    #hero-sec h2 {
+        margin: 0px;
+    }
+    
+    .hero-left-sec {
+        position: absolute;
+    }
+    .hero-sec-btn {
+        margin: 20px 0px 0px 0px;
+    }
+    #hero-sec {
+        background-position: top right;
+        background-size: cover;
+        background-image: unset;
+        background-repeat: no-repeat;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        margin-top: -130px;
+    }
+
+  
+
+.fa-bars:before{
+    color: #004CFF;
+}
+ 
+
+  .mobile {
+    padding: 10px 20px !important;
+} 
+  .footer-widgets .fab, .far {
+    margin: 05px 18px 0px 0px;
+  }
+  
+  p.margin-footer {
+    margin-bottom: 0px;
+}
+  
+  .footer-form-sec .footer-right-bg {
+    text-align: center;
+} 
+  .footer-right-bg .number {
+    width: 7%;
+  }
+    .form-footer-right {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    
+    .footer-form-sec {
+        padding: 40px 0px;
+    }
+
+    .mobile:hover{
+        color: #0000;
+    }
+    .Portfolio-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .nav{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolio-slider .slick-next, .slick-prev{
+        display: none !important;
+    }
+    .clients-col-yellow{
+        padding: 6% 0% 6% 7%;
+    }
+
+    #portfolio-tabs {
+        width: 85%;
+    }
+    .packeges ul {
+        flex-wrap: wrap;
+    }
+
+    .mobile {
+        margin-left: 30px !important;
+        margin-top: 12px !important; 
+    }
+    
+    .mobile b {
+    font-size:20px;   
+    color:#818181;
+    padding:0px !important; 
+    }
+    
+    
+
+    .mobile {
+        display: block !important;
+    }
+
+
+  .sidenav  header.main-header {
+          padding: 30px 20px 40px 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }  
+  
+  .sidenav a:hover:before {
+          width: 0px;
+      }
+  
+  .hameburger-menu{
+      display: block;
+      position: absolute;
+    right: 30px;
+  } 
+  
+  .sidenav {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color:#030917;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top:60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 30px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .sidenav  a.closebtn {
+      display: block !important;
+  }
+  
+
+  .header-call-btn {
+    display: none;
+}
+
+.header-contact-btn {
+    display: none;
+}
+
+.hero-sec-tech img {
+ display: none;
+}
+
+
+h2{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+
+#second-sec{
+    width: 85%;
+    padding: 0px 0px;
+}
+
+
+.site-button {
+    padding: 11px 15px;
+}
+
+
+#hero-sec {
+    height: 425px;
+}
+
+.Portfolio-btn {
+    width: 72%;
+}
+
+
+
+
+
+.footer-col-1 {
+    width: 24%;
+}
+
+.footer-col-2 {
+    width: 52%;
+}
+
+
+.hero-right-sec {
+    display: none;
+}
+
+
+.hero-left-sec {
+    padding-left: 50px;
+    left: 0px;
+}
+
+#hero-sec h2 {
+    width: 55%;
+}
+
+
+.hero-left-sec{
+    top: 160px;
+}
+
+
+p.clients-p {
+    width: 100%;
+}
+#clients {
+    padding: 40px 0px;
+}
+
+#second-sec {
+    padding-bottom: 40px;
+}
+
+#portfolio-tabs {
+    padding: 40px 0px;
+}
+
+
+#portfolio-tabs .nav-link {
+    margin: 8px 5px;
+}
+
+.price-section{
+    padding: 40px 0px;
+}
+
+.price-section .tab-content {
+    margin-top: 20px;
+}
+
+.footer-widgets{
+    padding: 40px 0px;
+}
+
+
+.footer-col-2 {
+    width: 70%;
+}
+
+
+.footer-col-3 {
+    margin-top: 30px;
+    width: 35%;
+}
+
+.footer-col-5 {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.footer-col-4{
+  
+    margin-top: 30px;
+}
+
+.sidenav {
+    z-index: 9999999;
+    margin-left: 0px;
+}
+
+.footer-col-4 {
+    margin-left: 0px;
+    width: 20%;
+}
+
+  .mobile {
+    padding: 10px 20px !important;
+}  
+.sidenav a.closebtn {
+    padding: 20px 0px 0px 0px !important;
+}
+
+.packeges .form-check{
+    margin: 20px 0px 0px  0px;
+}
+.packeges ul{
+    margin-bottom: 20px;
+}
+
+section#scrool-arrow img{
+    margin-top: 0px;
+}
+
+.second-left-col{
+padding: 8px 0px;
+}
+.second-left-col button.header-btn.site-button.site-angle {
+    width: 180px ;
+}
+
+#digitel-hero-sec h2{
+    margin-left: 0px;
+}
+
+
+#digitel-hero-sec {
+    height: 430px;
+    background-position: bottom;
+}
+
+#digitel-hero-sec .hero-left-sec {
+    top: 150px;
+}
+#scrool-arrow img {
+    margin-top: -100px;
+}
+
+.digitel-services-sec img {
+    margin-top: -100px !important;
+}
+
+.price-section {
+    margin: 0px;
+    width: 100%;
+}
+.avail-col {
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.avail-col {
+    text-align: center;
+}
+
+#services-hero-sec h2 {
+    margin: 0px;
+}
+
+.services-scrool-arrow img {
+    margin-top: -120px !important;
+}
+
+#digitel-hero-sec .hero-left-sec {
+    top: 140px;
+}
+
+
+
+.requ-btn {
+    padding: 7px 5px 07px 15px !important;
+    background: #00FF84;
+    border: 0px;
+}
+
+header {
+    justify-content: left;
+    margin-top: 10px;
+}
+
+
+.sidenav ul span {
+    color: #818181;
+}
+
+.sidenav > ul > li > ul {
+    display: inline-grid;
+    background: unset;
+    position: unset;
+}
+
+.sidenav ul {
+    display: inline-grid !important;
+}
+
+
+.sidenav > ul > li > ul a {
+    padding: 2px 0px 2px 40px;
+}
+
+
+.sidenav > ul > li > ul {
+    padding: 0px;
+}
+
+.sidenav span {
+    font-size: 20px !important;
+}
+
+
+header {
+    padding: 20px 0px;
+}
+
+section#scrool-arrow img {
+    margin-top: 0px !important;
+}
+
+
+.digitel-pricing-sec-exp {
+    padding: 50px 50px 0px 50px !important;
+    width: 100% !important;
+}
+
+}
+
+
+
+@media (max-width:940px) {
+    section#scrool-arrow img {margin-top: -105px !important;}
+}
+
+@media (max-width:767px) {
+.banr.ppolicy {
+    margin-top: 10px;
+}
+
+.our-services-col-01 {
+    margin-top: 0px;
+}
+
+.digitel-hero-sc {
+    background: #f1f1ef;
+}
+    
+    div#player-overlay {
+    position: unset;
+    display: none;
+   }
+    
+    #digitel-hero-sec {
+        height: 910px;
+    }
+
+    .service-web-design .second-left-col button.header-btn.site-button.site-angle {
+        width: 100% !important;
+        margin-left: 0px;
+    }
+     
+    .service-web-design {
+        background-image: url(../img/imgpsh_fujhkjhkjhkh.jpg) !important;
+    }
+    .service-mobile{
+        background-image: url(../img/imgpsh_fullsizdfd.jpg) !important ;
+    }
+
+    .service-ecommerce-hero .second-left-col button.header-btn.site-button.site-angle {
+        width: 100% !important;
+        margin-left: 0px;
+    }
+
+    #digitel-hero-sec{
+        background-image: url(../img/imgpsh_fulldd.jpg);
+    }
+      
+    .service-brandimg-hero {
+        background-image: url(../img/imgpsh_fullsiz.jpg) !important;
+
+    }
+
+
+    .service-brandimg-hero .second-left-col button.header-btn.site-button.site-angle {
+        width: 100% !important;
+        margin-left: 0px;
+    }
+
+
+  
+
+    .about-hero {
+        background-image: url(../img/about.jpg) !important;
+        background-position: center top !important;
+    }
+
+    .contact-money-back {
+        margin: 0px !important;
+        text-align: center;
+    }
+    
+    .contact-sec-2 {
+        padding-top: 40px !important;
+    }
+    
+    .footer-form-sec h2 {
+        margin-top: 0px;
+    }
+    
+    .contact-sec-2 h2 {
+        margin-bottom: 0px !important;
+    }
+    
+    .contact-footer-form h2.contact-email a {
+        font-size: 20px;
+    }
+
+    .about-btn-view {
+        text-align: center;
+    }
+
+    .about-hero .second-left-col button.header-btn.site-button.site-angle {
+        width: 100% !important;
+        margin-left: 0px;
+    }
+
+    .mobile-servie{
+        display: block;
+        margin-top: -20px;
+    }
+
+    .portfolio-page {
+        padding-bottom: 0px !important;
+    }
+
+    .trusted {
+        margin-top: 40px;
+        height: 90%;
+    }
+    
+    .trusted img {
+        margin-top: 10px;
+    }
+
+    .counter-sec {
+        width: 245px;
+        margin: auto;
+        height: 85%;
+        margin-top: 20px;
+    }
+
+    .our-services-col-2 h3, .our-services-col-3 h3{
+        height: auto;
+        margin-bottom: 30px;
+    }
+  #services-hero-sec .hero-left-sec {
+    padding: 0px 20px;
+  }
+
+    .service-column {
+        text-align: center;
+    }
+
+    .footer-widgets {
+        padding: 40px 0px 0px 0px;
+    }
+    .footer-col-4{
+        margin-left: 0px;
+    }
+
+    .Portfolio-btn {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .pck-guaranteed{
+        flex-wrap: wrap;
+    }
+
+    .footer-col-5,     .footer-col-4 ,    .footer-col-3 ,    .footer-col-2{
+        width: 100%;
+    }
+
+    #hero-sec h2 {
+        width: 100%;
+    }
+
+
+    .hero-left-sec {
+        padding: 0px 20px;
+        text-align: center;
+        top: 38%;
+    }
+    
+    .hero-sec-btn {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+    }
+    
+    .hero-sec-btn a {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px 15px !important;
+
+    }
+
+    h2 {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .hero-pkg-btn {
+        margin-bottom: 10px;
+        padding: 10px 20px !important;
+    }
+
+    
+
+
+    #second-sec h2 {
+        padding-bottom: 15px;
+    }
+    
+    .second-left-col p {
+        text-align: center;
+    }
+    
+    .second-left-col button.header-btn.site-button.site-angle {
+        width: 100% !important;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    
+    p.clients-p {
+        text-align: center;
+    }
+    
+    .clients-col h3 {
+        padding: 15px 0px;
+        line-height: 32px;
+    }
+    
+    #portfolio-tabs ul#pills-tab {
+        justify-content: center;
+    }
+    
+    .portfolio-scrool-img {
+        margin: 10px 0px;
+    }
+    
+    .site-button {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    
+   
+    #portfolio-tabs {
+        padding: 40px 0px 0px 0px;
+
+    }
+    
+    .pricing-btn {
+        margin: 0px;
+    }
+    
+    .pricing-table p.pricing-bottum {
+        line-height: 26px;
+    }
+    
+    .packeges {
+        text-align: center;
+    }
+    
+    .pck-guaranteed .guaranteed {
+        padding: 10px 25px;
+    }
+
+    #second-sec h2 {
+        padding-bottom: 15px;
+    }
+    
+    .second-left-col p {
+        text-align: center;
+    }
+    
+    .second-left-col button.header-btn.site-button.site-angle {
+        width: 100%;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    
+    p.clients-p {
+        text-align: center;
+    }
+    
+    .clients-col h3 {
+        padding: 15px 0px;
+        line-height: 32px;
+    }
+    
+    #portfolio-tabs ul#pills-tab {
+        justify-content: center;
+    }
+    
+    .portfolio-scrool-img {
+        margin: 10px 0px;
+    }
+    
+    .site-button {
+        margin: 0px;
+        margin-bottom: 20px;   
+        margin-right: 10px;
+        z-index: 0;
+    }
+    
+  
+    
+    #portfolio-tabs {
+        padding: 40px 0px 40px 0px;
+    }
+    
+    .pricing-btn {
+        margin: 0px;
+    }
+    
+    .pricing-table p.pricing-bottum {
+        line-height: 26px;
+    }
+    
+    .packeges {
+        text-align: center;
+    }
+    
+    .pck-guaranteed .guaranteed {
+        padding: 10px 25px;
+    }
+    
+    .footer-logo img {
+        padding: 7px 7px;
+    }
+    
+    .footer-logo {
+        margin-top: 25px;
+    }
+    
+    .form-footer-right {
+        margin: 0px;
+    }
+    
+    .footer-form-sec h2 {
+        margin: 20px 0px;
+    }
+    
+    .footer-form-right {
+        padding: 25px;
+    }
+    
+    .footer-form-sec {
+        padding: 40px 0px;
+    }
+
+    .clients-col-yellow {
+        padding: 30px;
+        padding-right: 0px;
+    }
+
+    button.header-btn.site-button.site-angle {
+        margin: 0px;
+    }
+
+    .packeges ul {
+           list-style: none;
+    }
+
+    .second-left-col {
+        padding: 8px 0px;
+    }
+
+    #carasoul {
+        padding: 40px 0px;
+    }
+
+ .footer-form-sec button.header-btn.site-button.site-angle img {
+    right: 4%;
+}
+ 
+.second-right-col img {
+    margin-top: 20px;
+}
+
+.Portfolio-btn{
+    flex-flow:column;
+    margin:auto;
+    width:100%
+}
+
+p.blue-footer {
+    margin-bottom: 20px;
+}
+
+.pck-guaranteed {
+    flex-wrap: wrap;
+    flex-flow: column ;
+}
+
+.packeges ul{
+    padding: 0px;
+}
+
+
+.packeges  button.header-btn.site-button.site-angle {
+    margin-top: 20px;
+}
+
+
+#hero-sec {
+    background-position: top right;
+    background-size: cover;
+    background-image: url(../img/home-sm-428s.webp);
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    margin-top: -215px;
+}
+
+#hero-sec h2 {
+    width: 77% !important;
+    text-align: left;
+}
+
+.hero-sec-btn {
+    justify-content: end;
+    align-items: flex-start;
+    flex-flow: column;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+.hero-left-sec{
+    padding: 0px 0px 0px 40px;
+}
+
+
+section#scrool-arrow img {
+    position: absolute;
+    margin-top: -160px;
+    right: 0px;
+}
+
+
+section#second-sec {
+    margin-top: 0px;
+  
+}
+
+.header-logo img {
+    width: 75%;
+    
+}
+
+header {
+    justify-content: space-between;
+}
+
+.header-logo {
+    text-align: left;
+      float: left;
+}
+
+.digitel-sec-btn {
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#digitel-hero-sec .hero-left-sec {
+    padding: 0px 25px;
+}
+
+
+#digitel-second-sec p {
+    text-align: center;
+}
+
+p.price-sec-p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#portfolio-tabs h2 {
+    margin-top: 20px;
+}
+
+.img-float-right {
+    justify-content: center;
+}
+
+.our-services-col-2 h3 {
+    padding-bottom: 30px;
+}
+#digitel-hero-sec .hero-left-sec {
+    top: 200px;
+}
+
+#digitel-hero-sec h2 {
+    margin-bottom: 0px;
+}
+
+.hero-sec-btn a {
+    margin-top: 0px;
+}
+
+
+
+.web-service h2 {
+    margin-bottom: 0px !important;
+}
+
+.web-service .digitel-sec-btn {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 2px !important;
+}
+
+.web-service input#form_name {
+    width: 100%;
+}
+
+
+
+.second-left-col .before-btn .fa-angle-up {
+    position: absolute;
+    right: 20px;
+}
+
+.second-left-col button.header-btn.site-button.site-angle {
+    position: relative;
+    z-index: 0;
+}
+
+
+#portfolio-tabs .before-btn .fa-angle-up {
+    position: absolute;
+    right: 0px;
+    top: 16px;
+}
+
+#portfolio-tabs  .portfolio-pkg-btn.site-button.site-angle {
+    position: relative;
+    z-index: 0;
+}
+
+.pricing-table .pricing-btn a {
+    position: relative;
+}
+
+.pricing-table .pricing-btn .fa-angle-up {
+    right: 15px !important;
+}
+
+.sub-btn{
+    position: relative;
+}
+
+.sub-btn  .fa-angle-up{
+ 
+ right: 15px !important;     
+}
+
+.service-col1-img {
+    height: auto;
+}
+
+.our-services-col h3 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.our-services-col-3, .our-services-col-2 {
+    height: auto;
+}
+
+.serv-5-img {
+    height: auto;
+}
+
+.our-services-col-5 {
+    padding: 30px 30px 30px 30px;
+}
+
+.our-services-col-1.our-services-col {
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.service-column {
+    padding: 20px 20px;
+}
+
+#best-services {
+    padding: 30px 0px;
+}
+
+#services-hero-sec{
+    background-image: unset;
+
+
+}
+
+#services-hero-sec {
+        top: 200px;
+        background: #fff;
+}
+
+.service-ecommerce-hero{
+    background-image: url(unset) !important;
+    height: 78vh !important;
+}
+
+.eco-mobile-sec{
+    padding-top: 20px;
+}
+#services-hero-sec .hero-left-sec {
+    padding: 0px;
+}
+
+
+#services-hero-sec {
+    height: auto;
+    min-height: 43rem;
+}
+
+#digitel-hero-sec {
+    background-size: 100% ;
+    z-index: 99;
+}
+
+.service-ecommerce-hero {
+     background: #fff;
+}
+
+
+
+#hero-sec .hero-sec-btn a{
+    margin-left: 0px;
+}
+
+
+#services-hero-sec h2 {
+    padding: 0px 20px;
+}
+
+
+.service-brandimg-hero {
+    display: none  !important;
+}
+
+.mobile-servie-sec {
+    display: block;
+}
+
+.mobile-servie-sec  input#form_name{
+    margin: 0px !important;
+    background: #fff;
+    color: #474747;
+    padding: 4px 20px;
+    border: 1px solid #A5A5A5;
+    width: 100%;
+}
+
+.mobile-servie-sec  input#form_name::placeholder{
+color: #474747;
+}
+.mobile-servie-sec  form {
+    padding: 20px 60px;
+}
+
+.mobile-servie-sec h2{
+padding: 0px 20px;
+}
+
+.branding-bgs {
+    background: #f5e5e5;
+    padding: 120px 0px 30px 0px;
+    margin-top: -71px;
+    z-index: 999;
+    position: relative;
+}
+
+
+
+.mobile-servie-sec button.header-btn.site-button.site-angle {
+    width: 100% !important;
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;
+}
+
+.mobile-servie-sec .before-btn .fa-angle-up {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.service-web-design, .digitel-hero-sc{
+    height: 100vh !important;
+}
+
+
+.service-mobile {
+    height: 100vh !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.digitel-hero-sc, .service-web-design{
+    background-size: 100% !important;
+}
+
+
+.about-hero {
+    height: 100vh !important;
+    background: #E5E5E5 !important;
+    background-image: unset !important;
+}
+
+.about-hero .hero-left-sec.web-service {
+    padding: 0px !important;
+}
+
+
+.about-hero form {
+    padding: 20px 20px 20px 30px;
+}
+
+.about-hero h2 {
+    padding: 0px 20px;
+}
+
+
+header {
+    padding: 0px 0px;
+}
+
+
+   .service-web-design{
+       background-size: cover !important;
+   }
+   
+   
+   .service-mobile{
+       background-image: url(../img/header-mobile.png);
+   }
+   
+   .servicee {
+    top: -6% !important;
+    background: #fff;
+}
+
+
+
+
+.main-services {min-height: 34rem !important;}
+
+.contact-sec-xii h2 {
+    margin-left: 0% !important;
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+
+i.hameburger.fa.fa-bars {
+    left: 15px;
+}
+
+
+
+.digitel-pricing-sec-exii h2 {
+    margin: 0px !important;
+    margin-top: 60px !important;
+}
+
+
+#our-services {
+    margin-top: 40%;
+    position: relative;
+    z-index: 99;
+}
+
+}
+
+@media (max-width:700px) {
+    #digitel-second-sec {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:600px) {
+    
+    #sidebar-form .fa-angle-up {
+    margin-left: 13px;
+}
+
+    #digitel-second-sec {
+        margin-top: 5%;
+    }
+
+
+.left-form button#quote_button{
+        width: 100%;
+}
+
+.form-side-button{
+    left: -61px;
+    top: 60px;
+    height: fit-content;
+    width: max-content;
+}
+
+.main-form {
+    width: 255px !important;
+    min-width: 255px;
+}    
+
+
+.icon-bar.icon-bar-p a {
+    padding-right: 18px;
+}
+.icon-bar a {
+    padding: 12px 10px 12px 10px;
+}
+ 
+.form-side-button {
+    left: -63px;
+    top: 62px;
+} 
+ 
+
+.packeges .error {width: 100% !important; margin-top: -30px !important;margin-left: -15px !important;}
+
+ 
+ 
+#sidebar-form button#sidbar_button {
+    width: 100%;
+} 
+    
+}
+
+@media (max-width:575px) {
+
+  
+    
+   
+    .service-web-design {background: #e0ddd6;}
+
+
+    #digitel-hero-sec {
+        height: 100vh;   
+        margin-top: -116px;
+        background-position: bottom ;
+    }
+
+    .ecommerce-cell-store-col, .ecommerce {
+        height: auto;
+    }
+    
+    .ecommerce-cell-store-col img {
+        float: unset !important;
+        margin: 0px 20px !important;
+    }
+    .digitel-hero-sc {
+        background: #f1f1ef;
+    }
+    .service-mobile{
+background-size: cover !important;
+    }    
+  
+    
+    .service-ecommerce-hero{
+        height: 78vh !important;
+    }
+
+}
+
+
+
+@media (max-width:500px) {
+  
+    section#scrool-arrow img {
+        margin-right: 20px;
+    }
+
+  .footer-form-sec button.header-btn.site-button.site-angle img {
+ 
+    right: 6%;
+}
+
+#hero-sec h2{
+    width: 85%;
+}
+
+#hero-sec{
+    margin-top: -124px;
+}
+
+.hero-left-sec{
+    padding: 0px 0px 0px 20px;
+    top: 30%;
+}
+
+#hero-sec{
+    height: 540px;
+}
+
+.digitel-sec-btn {
+    flex-flow: column;
+}
+
+#digitel-hero-sec h2 {
+    margin: 0px;
+}
+
+#digitel-hero-sec .hero-left-sec {
+    top: 200px;
+}
+
+#digitel-hero-sec {
+    height: 480px;
+    background-size: cover;
+}
+
+
+
+
+}
+
+@media (max-width:400px) {
+
+    .mobile-servie-sec form {
+        padding: 20px 20px;
+    }
+
+    #hero-sec {
+        margin-top: -40px;
+    }
+    
+    section#scrool-arrow img {
+        margin-top: -140px;
+    }
+
+    #hero-sec {
+        height: 470px;
+    }
+
+
+    #services-hero-sec {
+        height: auto;
+        min-height: 38rem;
+    }
+    .services-scrool-arrow img {
+        margin-top: -60px !important;
+    }
+
+  .sidenav a {
+    padding: 6px 30px 8px 32px;
+    font-size: 20px;
+  }
+.footer-clients-col-yellow a{
+    font-size: 20px !important;
+    
+}
+
+.footer-form-sec h2 {
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.packeges .form-check {
+    margin-right: 25px;
+}
+
+#second-sec h2 {
+    margin-top: 120px;
+}
+
+.pricing-table {
+    padding: 40px 20px;
+}
+
+.pricing-table li {
+    font-size: 16px;
+}
+
+#portfolio-tabs h2 {
+    font-size: 25px;
+}
+
+  .Portfolio-btn {
+    flex-flow: column;
+}
+
+.client-blue-bg a {
+    font-size: 20px;
+}
+  
+  .client-blue-bg img {
+    width: 30px;
+}
+
+.footer-right-bg .number {
+    width: 25px;
+}
+
+.packeges ul {
+    padding: 0px;
+}
+  
+.client-blue-bg img {
+    width: 30px;
+}
+
+.footer-right-bg .number {
+    width: 25px;
+}
+
+.packeges ul {
+    padding: 0px;
+}
+
+.packeges .form-check {
+    margin-right: 0px;
+}
+
+.packeges p {
+    margin: 10px 0px 25px 0px;
+}  
+ .packeges .form-check {
+    height: 120px; 
+  }  
+  .clients-col {
+    margin: 20px 0px 20px 0px !important;
+}
+
+.clents-img {
+    padding-top: 10px;
+}     
+
+.footer-form-sec .footer-right-bg {
+    padding: 20px 10px !important;
+}
+
+#second-sec h2 {
+    margin-top: 0px;
+}
+
+#hero-sec h2 {
+    width: 85% !important;
+}
+
+#digitel-hero-sec .hero-left-sec {
+    top: 170px;
+}
+
+
+#avail a {
+    font-size: 15px !important;
+}
+
+
+h2 {
+    font-size: 25px !important;
+    line-height: 36px !important;
+}
+
+.digitel-best-services .service-column {
+    padding-top: 0px;
+}
+
+h2 {
+    font-size: 25px !important;
+    line-height: 36px !important;
+}
+
+.digitel-best-services .service-column {
+    padding-top: 0px;
+}
+
+.our-services-col {
+    padding: 20px;
+}
+
+.our-services-col a {
+    font-size: 10px;
+}
+
+
+.footer-text-area {
+    line-height: 28px;
+    padding-right: 5px;
+}
+
+
+
+.clients-col {
+    padding: 20px;
+}
+
+
+.clients-col a {
+    font-size: 10px;
+}
+
+.clients-col-yellow a{
+font-size: 20px;
+}
+
+
+.packeges .form-check {
+    height: 140px;
+}
+
+.hero-left-sec {
+    top: 15%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+

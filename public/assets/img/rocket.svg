@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="60" viewBox="0 0 72 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="72" height="60" transform="translate(1742 88)" fill="#558af1"/>
+    </clipPath>
+    <filter id="Union_31" x="2.438" y="46.945" width="47.05" height="21.229" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_15" data-name="Mask Group 15" transform="translate(-1742 -88)" clip-path="url(#clip-path)">
+    <path id="Union_30" data-name="Union 30" d="M15540.947,17480.764l-1.241-1.154-3.164-2.893q2.171-1.471,4.117-2.848c-.1-.033-.206-.07-.309-.109a6.9,6.9,0,0,1,4.945-12.887,6.736,6.736,0,0,0,8.622,1.859c.223.086.438.184.647.289,7.983-7.072,9.291-10.424,9.291-10.424l1.86,1.859.062.066,1.86,1.861s-1.766.723-5.57,4.445a10.481,10.481,0,0,1,1.487-.131,9.853,9.853,0,0,1,10.16.043,6.76,6.76,0,0,1,1.04-.369,7.02,7.02,0,1,1,2.4,13.775,9.81,9.81,0,0,1-5.982,4.6l-.032.01a10.529,10.529,0,0,1-17.113-3.236,6.735,6.735,0,0,1-4.5.279c-1.709,2.33-3.55,4.938-5.523,7.85Z" transform="translate(-13794.011 -17324.33)" fill="#0d4329" opacity="0.4"/>
+    <path id="Path_36888" data-name="Path 36888" d="M4.164,37.575l-.98-.128V37.6l-.906.2S3.778,6.157,0,1.312L.175.262,2.931,0l.5.13L6.088.087l.605.146C2.915,5.078,4.164,37.575,4.164,37.575Z" transform="translate(1747.371 159.055) rotate(-135)" fill="#d1ffe9"/>
+    <path id="Union_32" data-name="Union 32" d="M15539.623,17469.307a5.857,5.857,0,1,1,7.717-3.311,5.858,5.858,0,0,1-5.508,3.723A6.161,6.161,0,0,1,15539.623,17469.307Zm10.4-6.576a8.057,8.057,0,1,1,9.809,5.48,8.324,8.324,0,0,1-2.146.283A7.872,7.872,0,0,1,15550.027,17462.73Z" transform="translate(-13782.96 -17317.553)" fill="#e6fff3"/>
+    <g transform="matrix(1, 0, 0, 1, 1742, 88)" filter="url(#Union_31)">
+      <path id="Union_31-2" data-name="Union 31" d="M15556.938,17470.393a8.287,8.287,0,1,1,10.923-4.68,8.293,8.293,0,0,1-7.795,5.264A8.7,8.7,0,0,1,15556.938,17470.393Zm-17.316-6.307a5.854,5.854,0,1,1,7.722-3.3,5.863,5.863,0,0,1-5.51,3.719A6.141,6.141,0,0,1,15539.622,17464.086Zm28.967-3.752a5.693,5.693,0,1,1,6.928,3.871,5.869,5.869,0,0,1-1.512.2A5.561,5.561,0,0,1,15568.589,17460.334Z" transform="translate(-15532.78 -17404.3)" fill="#fff"/>
+    </g>
+    <g id="Jet" transform="translate(1790.685 95.441) rotate(45)">
+      <path id="Path_36890" data-name="Path 36890" d="M7.05,3.171c0,2.488-3.525,8.613-3.525,8.613S0,5.66,0,3.171,1.578,0,3.525,0,7.05.683,7.05,3.171Z" transform="translate(7.674 35.966)" fill="#ffad33"/>
+      <g id="wings" transform="translate(0 26.95)">
+        <path id="Path_36892" data-name="Path 36892" d="M7.033,0S0,3.692,0,11.692c0,0,.44.879,1.143-.176S2.461,7.56,6.945,7.56Z" transform="translate(0 0)" fill="#244eb1"/>
+        <path id="Path_36893" data-name="Path 36893" d="M0,0S7.033,3.692,7.033,11.692c0,0-.44.879-1.143-.176S4.571,7.56.088,7.56Z" transform="translate(15.331 0)" fill="#244eb1"/>
+      </g>
+      <path id="Path_36911" data-name="Path 36911" d="M7.771,0c1.937,0,7.771,8.616,7.771,19.244,0,6.738-1.4,12.667-3.547,16.154-.009.034-8.468-.007-8.45,0C1.426,32.024,0,26.046,0,19.244,0,8.616,5.835,0,7.771,0Z" transform="translate(3.377 0)" fill="#004cff"/>
+      <path id="Union_3" data-name="Union 3" d="M4.345,1.312V0H8.49a.2.2,0,0,1,.2.2v.919a.2.2,0,0,1-.2.2ZM.2,1.312a.2.2,0,0,1-.2-.2V.2A.2.2,0,0,1,.2,0H4.345V1.312Z" transform="translate(6.836 35.331)" fill="#244eb1" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="4" cy="4" r="4" transform="translate(16.779 19.178) rotate(150)" fill="#244eb1"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="3" cy="3" r="3" transform="translate(15.413 18.812) rotate(150)" fill="#ff0"/>
+    </g>
+  </g>
+</svg>
